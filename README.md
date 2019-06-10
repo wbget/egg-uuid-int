@@ -34,9 +34,9 @@ $ npm i egg-uuid-int --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.uuidInt = {
+exports.uuint = {
   enable: true,
-  package: 'egg-uuid-int',
+  package: 'egg-uuid-int'
 };
 ```
 
@@ -44,7 +44,9 @@ exports.uuidInt = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.uuidInt = {
+exports.uuint = {
+  id: 0, // 0-511
+  seed: 156015570 // a time
 };
 ```
 
@@ -52,11 +54,9 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+const uuid = app.uuint.uuid(); // a int uuid
 
-## Questions & Suggestions
-
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+- [snowflake for nodejs](https://github.com/wbget/uuid-int)
 
 ## License
 
