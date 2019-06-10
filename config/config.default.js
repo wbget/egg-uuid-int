@@ -5,6 +5,9 @@
  * @member Config#uuidInt
  * @property {String} SOME_KEY - some description
  */
-exports.uuidInt = {
-
+exports.uuint = {
+  client: {
+    id: 0,
+    seed: 156015570,
+  },
 };
