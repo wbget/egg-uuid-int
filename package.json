@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-uuid-int.git"
+    "url": "git+https://github.com/wbget/egg-uuid-int.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/wbget/egg-uuid-int/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-uuid-int#readme",
+  "homepage": "https://github.com/wbget/egg-uuid-int#readme",
   "author": "wbget",
   "license": "MIT"
 }
