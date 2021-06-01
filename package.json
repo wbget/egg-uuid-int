@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "uuid-int": "^1.1.0"
+    "uuid-int": "^3.0.3"
   },
   "devDependencies": {
     "autod": "^3.0.1",
