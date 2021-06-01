@@ -1,6 +1,6 @@
 {
   "name": "egg-uuid-int",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "uuid-int for eggjs",
   "eggPlugin": {
     "name": "uuidInt"
@@ -21,7 +21,8 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "standard-version": "^9.3.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -33,7 +34,8 @@
     "lint": "eslint .",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "autod": "autod",
+    "release": "standard-version"
   },
   "files": [
     "config",
